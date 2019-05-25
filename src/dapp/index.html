@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>FlightSurety</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">FlightSurety</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <main class="container">
+      <div id="display-wrapper"></div>
+      <div class=" top-20">
+      <div class="top-20">
+        <h3 class="font-weight-bold">Flights</h3>
+        <div class="form-row align-items-center">
+          <div class="col-sm-3 my-1">
+            <input
+              type="text"
+              class="form-control"
+              id="register-flight-code"
+              placeholder="Flight code"
+            />
+          </div>
+          <div class="col-sm-3 my-1">
+            <input
+              type="number"
+              class="form-control"
+              id="register-flight-price"
+              min="10"
+              placeholder="Flight price"
+            />
+          </div>
+          <div class="col-sm-2 my-1">
+            <input
+              type="text"
+              class="form-control"
+              id="register-flight-departure"
+              placeholder="Flight departure"
+            />
+          </div>
+          <div class="col-sm-2 my-1">
+            <input
+              type="text"
+              class="form-control"
+              id="register-flight-destination"
+              placeholder="Flight destination"
+            />
+          </div>
+
+          <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary" id="register-flight">
+              Register Flight
+            </button>
+          </div>
+        </div>
+
+        <div class="form-row align-items-center top-20">
+          <div class="col-sm-4 my-1">
+            <input
+              type="text"
+              class="form-control"
+              id="insurance-flight-code"
+              placeholder="Flight code"
+            />
+          </div>
+          <div class="col-sm-3 my-1">
+            <input
+              type="number"
+              class="form-control"
+              id="insurance-flight-price"
+              min="10"
+              placeholder="Flight price"
+            />
+          </div>
+          <div class="col-sm-3 my-1">
+            <input
+              type="text"
+              class="form-control"
+              id="insurance-flight-destination"
+              placeholder="Flight destination"
+            />
+          </div>
+
+          <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary" id="buy-insurance">
+              Buy insurance
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="top-20">
+        <h3 class="font-weight-bold">Withdraw</h3>
+        <div class="form-row align-items-center">
+          <div class="col-sm-5 my-1">
+            <input
+              type="text"
+              class="form-control"
+              id="flight-number"
+              placeholder="Flight code"
+            />
+          </div>
+          <div class="col-sm-5 my-1">
+            <input
+              type="text"
+              class="form-control"
+              id="oracle-destination"
+              placeholder="Flight destination"
+            />
+          </div>
+
+          <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary" id="submit-oracle">
+              If your flight is delayed kindly click here
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
